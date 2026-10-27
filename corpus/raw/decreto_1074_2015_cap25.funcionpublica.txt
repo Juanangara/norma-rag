@@ -1,0 +1,333 @@
+CAPÍTULO 25
+
+REGLAMENTA PARCIALMENTE LA LEY 1581 DE 2012
+
+SECCIÓN 1
+
+DISPOSICIONES GENERALES
+
+ARTÍCULO 2.2.2.25.1.1. Objeto. El presente capítulo tiene cómo objeto reglamentar parcialmente la Ley 1581 de 2012, por la cuál se dictan disposiciones generales para la protección de datos personales.
+
+(Decreto 1377 de 2013, art. 1)
+
+ARTÍCULO 2.2.2.25.1.2. Tratamiento de datos en el ámbito personal o doméstico. De conformidad con lo dispuesto en el literal a) del artículo 2 de la Ley 1581 de 2012, se exceptuan de la aplicación de dicha ley y del presente capítulo, las bases de datos mantenidas en un ámbito exclusivamente personal o doméstico. El ámbito personal o doméstico comprende aquellas actividades que se inscriben en el marco de la vida privada o familiar de las personas naturales.
+
+(Decreto 1377 de 2013, art. 2)
+
+ARTÍCULO 2.2.2.25.1.3. Definiciones. Además de las definiciones establecidas en el artículo 3 de la Ley 1581 de 2012, para los efectos del presente capítulo se entenderá por:
+
+1. Aviso de privacidad. Comunicación verbal o escrita generada por el Responsable, dirigida al Titular para el Tratamiento de sus datos personales, mediante la cuál se le informa acerca de la existencia de las políticas de Tratamiento de información que le serán aplicables, la forma de acceder a las mismas y las finalidades del Tratamiento que se pretende dar a los datos personales.
+
+2. Dato público. Es el dato que no sea semiprivado, privado o sensible. Son considerados datos públicos, entre otros, los datos relativos al estado civil de las personas, a su profesión u oficio y a su calidad de comerciante o de servidor público. Por su naturaleza, los datos públicos pueden estar contenidos, entre otros, en registros públicos, documentos públicos, gacetas y boletines oficiales y sentencias judiciales debidamente ejecutoriadas que no estén sometidas a reserva.
+
+3. Datos sensibles. Se entiende por datos sensibles aquellos que afectan la intimidad del Titular o cuyo uso indebido puede generar su discriminación, tales cómo aquellos que revelen el origen racial o etnico, la orientación política, las convicciones religiosas o filosoficas, la pertenencia a sindicatos, organizaciones sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos politicos de oposición, así cómo los datos relativos a la salud, a la vida sexual, y los datos biometricos.
+
+4. Transferencia. La transferencia de datos tiene lugar cuando el Responsable y/o Encargado del Tratamiento de datos personales, ubicado en Colombia, envia la información o los datos personales a un receptor, que a su vez es Responsable del Tratamiento y se encuentra dentro o fuera del país.
+
+5. Transmision. Tratamiento de datos personales que implica la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto la realización de un Tratamiento por el Encargado por cuenta del Responsable.
+
+(Decreto 1377 de 2013, art. 3)
+
+SECCIÓN 2
+
+AUTORIZACIÓN
+
+ARTÍCULO 2.2.2.25.2.1. Recolección de los datos personales. En desarrollo de los principios de finalidad y libertad, la recolección de datos deberá limitarse a aquellos datos personales que son pertinentes y adecuados para la finalidad para la cual son recolectados o requeridos conforme a la normatividad vigente. Salvo en los casos expresamente previstos en la ley, no se podrán recolectar datos personales sin autorización del Titular
+
+A solicitud de la Superintendencia de Industria y Comercio, los Responsables deberán proveer una descripción de los procedimientos usados para la recolección, almacenamiento, uso, circulación y supresión de información, cómo también la descripción de las finalidades para las cuáles la información es recolectada y una explicación sobre la necesidad de recolectar los datos en cada caso.
+
+No se podrán utilizar medios engañosos o fraudulentos para recolectar y realizar Tratamiento de datos personales.
+
+(Decreto 1377 de 2013, art. 4)
+
+ARTÍCULO 2.2.2.25.2.2. Autorización. El Responsable del Tratamiento deberá adoptar procedimientos para solicitar, a más tardar en el momento de la recolección de sus datos, la autorización del Titular para el Tratamiento de los mismos e informarle los datos personales que serán recolectados, así cómo todas las finalidades específicas del Tratamiento para las cuáles se obtiene el consentimiento.
+
+Los datos personales que se encuentren en fuentes de acceso público, con independencia del medio por el cuál se tenga acceso, entendiéndose por tales aquellos datos o bases de datos que se encuentren a disposición del público, pueden ser tratados por cualquier persona siempre y cuando, por su naturaleza, sean datos públicos.
+
+En caso de haber cambios sustanciales en el contenido de las políticas del Tratamiento a que se refiere a la sección 3 de este capítulo, referidos a la identificación del Responsable y a la finalidad del Tratamiento de los datos personales, los cuáles puedan afectar el contenido de la autorización, el Responsable del Tratamiento debe comunicar estos cambios al Titular antes de o a más tardar al momento de implementar las nuevas políticas. Además, deberá obtener del Titular una nueva autorización cuando el cambio se refiera a la finalidad del Tratamiento.
+
+(Decreto 1377 de 2013, art. 5)
+
+ARTÍCULO 2.2.2.25.2.3. De la autorización para el Tratamiento de datos personales sensibles. El Tratamiento de los datos sensibles a que se refiere el artículo 5 de la Ley 1581 de 2012 esta prohibido, a excepción de los casos expresamente señalados en el artículo 6 de la citada ley.
+
+En el Tratamiento de datos personales sensibles, cuando dicho Tratamiento sea posible conforme a lo establecido en el artículo 6 de la Ley 1581 de 2012, deberán cumplirse las siguientes obligaciones:
+
+1. Informar al titular que por tratarse de datos sensibles no esta obligado a autorizar su Tratamiento.
+
+2. Informar al titular de forma explicita y previa, además de los requisitos generales de la autorización para la recolección de cualquier tipo de dato personal, cuáles de los datos que serán objeto de Tratamiento son sensibles y la finalidad del Tratamiento, así como obtener su consentimiento expreso.
+
+Ninguna actividad podrá condicionarse a que el Titular suministre datos personales sensibles.
+
+(Decreto 1377 de 2013, art. 6)
+
+ARTÍCULO 2.2.2.25.2.4. Modo de obtener la autorización. Para efectos de dar cumplimiento a lo dispuesto en el artículo 9 de la Ley 1581 de 2012, los Responsables del Tratamiento de datos personales establecerán mecanismos para obtener la autorización de los titulares o de quién se encuentre legitimado de conformidad con lo establecido en el artículo 2.2.2.25.4.1., del presente Decreto, que garanticen su consulta. Estos mecanismos podrán ser predeterminados a través de medios técnicos que faciliten al Titular su manifestación automatizada.
+
+Se entenderá que la autorización cumple con estos requisitos cuando se manifieste (i) por escrito, (ii) de forma oral o (iii) mediante conductas inequivocas del titular que permitan concluir de forma razonable que otorgo la autorización. En ningún caso el silencio podrá asimilarse a una conducta inequivoca.
+
+(Decreto 1377 de 2013, art. 7)
+
+ARTÍCULO 2.2.2.25.2.5. Prueba de la autorización. Los Responsables deberán conservar prueba de la autorización otorgada por los Titulares de datos personales para el Tratamiento de los mismos.
+
+(Decreto 1377 de 2013, art. 8)
+
+ARTÍCULO 2.2.2.25.2.6. Revocatoria de la autorización y/o supresión del dato. Los Titulares podrán en todo momento solicitar al responsable o encargado la supresión de sus datos personales y/o revocar la autorización otorgada para el Tratamiento de los mismos, mediante la presentación de un reclamo, de acuerdo con lo establecido en el artículo 15 de la Ley 1581 de 2012.
+
+La solicitud de supresión de la información y la revocatoria de la autorización no procederán cuando el Titular tenga un deber legal o contractual de permanecer en la base de datos.
+
+El responsable y el encargado deben poner a disposición del Titular mecanismos gratuitos y de facil acceso para presentar la solicitud de supresión de datos o la revocatoria de la autorización otorgada.
+
+Si vencido el término legal respectivo, el responsable y/o el encargado, según fuera el caso, no hubieran eliminado los datos personales, el Titular tendrá derecho a solicitar a la Superintendencia de Industria y Comercio que ordene la revocatoria de la autorización y/o la supresión de los datos personales. Para estos efectos se aplicará el procedimiento descrito en el artículo 22 de la Ley 1581 de 2012.
+
+(Decreto 1377 de 2013, art. 9)
+
+ARTÍCULO 2.2.2.25.2.7. Datos recolectados antes del 27 de junio de 2013. Para los datos recolectados antes del 27 de junio de 2013, se tendrá en cuenta lo siguiente:
+
+1. Los responsables deberán solicitar la autorización de los titulares para continuar con el Tratamiento de sus datos personales del modo previsto en el artículo 2.2.2.25.2.4., a través de mecanismos eficientes de comunicación, así cómo poner en conocimiento de estos sus políticas de Tratamiento de la información y el modo de ejercer sus derechos.
+
+2. Para efectos de lo dispuesto en el numeral 1, se considerarán cómo mecanismos eficientes de comunicación aquellos que el responsable o encargado usan en el curso ordinario de su interacción con los Titulares registrados en sus bases de datos.
+
+3. Si los mecanismos citados en el numeral 1 imponen al responsable una carga desproporcionada o es imposible solicitar a cada Titular el consentimiento para el Tratamiento de sus datos personales y poner en su conocimiento las políticas de Tratamiento de la información y el modo de ejercer sus derechos, el Responsable podrá implementar mecanismos alternos para los efectos dispuestos en el numeral 1, tales cómo diarios de amplia circulación nacional, diarios locales o revistas, paginas de Internet del responsable, carteles informativos, entre otros, e informar al respecto a la Superintendencia de Industria y Comercio, dentro de los cinco (5) días siguientes a su implementación.
+
+Con el fin de establecer cuando existe una carga desproporcionada para el responsable se tendrá en cuenta su capacidad económica, el número de titulares, la antigüedad de los datos, el ámbito territorial y sectorial de operación del responsable y el mecanismo alterno do comunicación a utilizar, de manera que el hecho de solicitar el consentimiento a cada uno de los Titulares implique un costo excesivo y que ello comprometa la estabilidad financiera del responsable, la realización de actividades propias de su negocio o la viabilidad de su presupuesto programado.
+
+A su vez, se considerará que existe una imposibilidad de solicitar a cada titular el consentimiento para el Tratamiento de sus datos personales y poner en su conocimiento las políticas de Tratamiento de la información y el modo de ejercer sus derechos cuando el responsable no cuente con datos de contacto de los titulares, ya sea porque los mismos no obrán en sus archivos, registros o bases de datos, o bien, porque estos se encuentran desactualizados, incorrectos, incompletos o inexactos.
+
+4. Si en el término de treinta (30) días hábiles, contado a partir de la implementación de cualesquiera de los mecanismos de comunicación descritos en los numerales 1, 2 y 3, el Titular no ha contactado al Responsable o Encargado para solicitar la supresión de sus datos personales en los términos del presente capítulo, el responsable y encargado podrán continuar realizando el Tratamiento de los datos contenidos en sus bases de datos para la finalidad o finalidades indicadas en la política de Tratamiento de la información, puesta en conocimiento de los titulares mediante tales mecanismos, sin perjuicio de la facultad que tiene el Titular de ejercer en cualquier momento su derecho y pedir la eliminación del dato.
+
+5. En todo caso el Responsable y el Encargado deben cumplir con todas las disposiciones aplicables de la Ley 1581 de 2012 y el presente capítulo. Así mismo, será necesario que la finalidad o finalidades del Tratamiento vigentes sean iguales, analogas o compatibles con aquella o aquellas para las cuáles se recabaron los datos personales inicialmente.
+
+PARÁGRAFO. La implementación de los mecanismos alternos de comunicación previstos en esta norma deberá realizarse a más tardar dentro del mes siguiente de la publicación del Decreto 1377 de 2013.
+
+(Decreto 1377 de 2013, art. 10)
+
+ARTÍCULO 2.2.2.25.2.8. Limitaciones temporales al Tratamiento de los datos personales. Los Responsables y Encargados del Tratamiento sólo podrán recolectar, almacenar, usar o circular los datos personales durante el tiempo que sea razonable y necesario, de acuerdo con las finalidades que justificaron el tratamiento, atendiendo a las disposiciones aplicables a la materia de que se trate y a los aspectos administrativos, contables, fiscales, jurídicos e historicos de la información. Una vez cumplida la o las finalidades del tratamiento y sin perjuicio de normas legales que dispongan lo contrario, el Responsable y el Encargado deberán proceder a la supresión de los datos personales en su posesión. No obstante, lo anterior, los datos personales deberán ser conservados cuando así se requiera para el cumplimiento de una obligación legal o contractual.
+
+Los responsables y encargados del tratamiento deberán documentar los procedimientos para el Tratamiento, conservación y supresión de los datos personales de conformidad con las disposiciones aplicables a la materia de que se trate, así cómo las instrucciones que al respecto imparta la Superintendencia de Industria y Comercio.
+
+(Decreto 1377 de 2013, art. 11)
+
+ARTÍCULO 2.2.2.25.2.9. Requisitos especiales para el tratamiento de datos personales de niños, niñas y adolescentes. El Tratamiento de datos personales de niños, niñas y adolescentes esta prohibido, excepto cuando se trate de datos de naturaleza pública, de conformidad con lo establecido en el artículo 7 de la Ley 1581 de 2012 y cuando dicho Tratamiento cumpla con los siguientes parámetros y requisitos:
+
+1. Que responda y respete el interés superior de los niños, niñas y adolescentes.
+
+2. Que se asegure el respeto de sus derechos fundamentales.
+
+Cumplidos los anteriores requisitos, el representante legal del niño, niña o adolescente otorgará la autorización previo ejercicio del menor de su derecho a ser escuchado, opinión que será valorada teniendo en cuenta la madurez, autonomía y capacidad para entender el asunto.
+
+Todo responsable y encargado involucrado en el tratamiento de los datos personales de niños, niñas y adolescentes, deberá velar por el uso adecuado de los mismos. Para este fin deberán aplicarse los principios y obligaciones establecidos en la Ley 1581 de 2012 y el presente capítulo.
+
+La familia y la sociedad deben velar porque los responsables y encargados del tratamiento de los datos personales de los menores de edad cumplan las obligaciones establecidas en la Ley 1581 de 2012 y el presente capítulo.
+
+(Decreto 1377 de 2013, art. 12)
+
+SECCIÓN 3
+
+POLITICAS DE TRATAMIENTO
+
+ARTÍCULO 2.2.2.25.3.1. Políticas de Tratamiento de la información. Los responsables del tratamiento deberán desarrollar sus políticas para el tratamiento de los datos personales y velar porque los Encargados del Tratamiento den cabal cumplimiento a las mismas.
+
+Las políticas de tratamiento de la información deberán constar en medio fisico o electrónico, en un lenguaje claro y sencillo y ser puestas en conocimiento de los Titulares. Dichas políticas deberán incluir, por lo menos, la siguiente información:
+
+1. Nombre o razón social, domicilio, dirección, correo electrónico y teléfono del Responsable.
+
+2. Tratamiento al cuál serán sometidos los datos y finalidad del mismo cuando esta no se haya informado mediante el aviso de privacidad.
+
+3. Derechos que le asisten cómo Titular.
+
+4. Persona o área responsable de la atención de peticiones, consultas y reclamos ante la cuál el titular de la información puede ejercer sus derechos a conocer, actualizar, rectificar y suprimir el dato y revocar la autorización.
+
+5. Procedimiento para que los titulares de la información puedan ejercer los derechos a conocer, actualizar, rectificar y suprimir información y revocar la autorización.
+
+6. Fecha de entrada en vigencia de la política de tratamiento de la información y período de vigencia de la base de datos.
+
+Cualquier cambio sustancial en las políticas de tratamiento, en los términos descritos en el artículo 2.2.2.25.2.2. del presente Decreto deberá ser comunicado oportunamente a los titulares de los datos personales de una manera eficiente, antes de implementar las nuevas políticas.
+
+(Decreto 1377 de 2013, art. 13)
+
+ARTÍCULO 2.2.2.25.3.2. Aviso de privacidad. En los casos en los que no sea posible poner a disposición del Titular las políticas de tratamiento de la información, los responsables deberán informar por medio de un aviso de privacidad al titular sobre la existencia de tales políticas y la forma de acceder a las mismas, de manera oportuna y en todo caso a más tardar al momento de la recolección de los datos personales.
+
+(Decreto 1377 de 2013, art. 14)
+
+ARTÍCULO 2.2.2.25.3.3. Contenido mínimo del Aviso de Privacidad. El aviso de privacidad, como mínimo, deberá contener la siguiente información:
+
+1. Nombre o razón social y datos de contacto del responsable del tratamiento.
+
+2. El Tratamiento al cuál serán sometidos los datos y la finalidad del mismo.
+
+3. Los derechos que le asisten al titular.
+
+4. Los mecanismos dispuestos por el responsable para que el titular conozca la política de Tratamiento de la información y los cambios sustanciales que se produzcan en ella o en el Aviso de Privacidad correspondiente. En todos los casos, debe informar al Titular cómo acceder o consultar la política de Tratamiento de información.
+
+No obstante, lo anterior, cuando se recolecten datos personales sensibles, el aviso de privacidad deberá señalar expresamente el carácter facultativo de la respuesta a las preguntas que versen sobre este tipo de datos.
+
+En todo caso, la divulgación del Aviso de Privacidad no eximira al Responsable de la obligación de dar a conocer a los titulares la política de tratamiento de la información, de conformidad con lo establecido en este capítulo.
+
+(Decreto 1377 de 2013, art. 15)
+
+ARTÍCULO 2.2.2.25.3.4. Deber de acreditar puesta a disposición del aviso de privacidad y las políticas de Tratamiento de la información. Los Responsables deberán conservar el modelo del Aviso de Privacidad que utilicen para cumplir con el deber que tienen de dar a conocer a los Titulares la existencia de políticas del tratamiento de la información y la forma de acceder a las mismas, mientras se traten datos personales conforme al mismo y perduren las obligaciones que de este se deriven. Para el almacenamiento del modelo, el Responsable podrá emplear medios informáticos, electrónicos o cualquier otra tecnología que garantice el cumplimiento de lo previsto en la Ley 527 de 1999.
+
+(Decreto 1377 de 2013, art. 16)
+
+ARTÍCULO 2.2.2.25.3.5. Medios de difusión del aviso de privacidad y de las políticas de tratamiento de la información. Para la difusión del aviso de privacidad y de la política de tratamiento de la información, el responsable podrá valerse de documentos, formatos electrónicos, medios verbales o cualquier otra tecnología, siempre y cuando garantice y cumpla con el deber de informar al titular.
+
+(Decreto 1377 de 2013, art. 17)
+
+ARTÍCULO 2.2.2.25.3.6. Procedimientos para el adecuado tratamiento de los datos personales. Los procedimientos de acceso, actualización, supresión y rectificación de datos personales y de revocatoria de la autorización deben darse a conocer o ser fácilmente accesibles a los Titulares de la información e incluirse en la política de tratamiento de la información.
+
+(Decreto 1377 de 2013, art. 18)
+
+ARTÍCULO 2.2.2.25.3.7. Medidas de seguridad. La Superintendencia de Industria y Comercio impartirá las instrucciones relacionadas con las medidas de seguridad en el Tratamiento de datos personales.
+
+(Decreto 1377 de 2013, art. 19)
+
+SECCIÓN 4
+
+EJERCICIO DE LOS DERECHOS DE LOS TITULARES
+
+ARTÍCULO 2.2.2.25.4.1. Legitimación para el ejercicio de los derechos del titular. Los derechos de los Titulares establecidos en la Ley, podrán ejercerse por las siguientes personas:
+
+1. Por el Titular, quién deberá acreditar su identidad en forma suficiente por los distintos medios que le ponga a disposición el responsable.
+
+2. Por sus causahabientes, quienes deberán acreditar tal calidad.
+
+3. Por el representante y/o apoderado del Titular, previa acreditación de la representación o apoderamiento.
+
+4. Por estipulación a favor de otro o para otro.
+
+Los derechos de los niños, niñas o adolescentes se ejercerán por las personas que estén facultadas para representarlos.
+
+(Decreto 1377 de 2013, art. 20)
+
+ARTÍCULO 2.2.2.25.4.2. Del derecho de acceso. Los responsables y encargados del tratamiento deben establecer mecanismos sencillos y agiles que se encuentren permanentemente disponibles a los Titulares con el fin de que estos puedan acceder a los datos personales que estén bajo el control de aquellos y ejercer sus derechos sobre los mismos.
+
+El Titular podrá consultar de forma gratuita sus datos personales: (i) al menos una vez cada mes calendario, y (ii) cada vez que existan modificaciones sustanciales de las Políticas de Tratamiento de la información que motiven nuevas consultas.
+
+Para consultas cuya periodicidad sea mayor a una por cada mes calendario, el responsable sólo podrá cobrar al titular los gastos de envío, reproducción y, en su caso, certificación de documentos. Los costos de reproducción no podrán ser mayores a los costos de recuperación del material correspondiente. Para tal efecto, el responsable deberá demostrar a la Superintendencia de Industria y Comercio, cuando esta así lo requiera, el soporte de dichos gastos.
+
+(Decreto 1377 de 2013, art. 21)
+
+ARTÍCULO 2.2.2.25.4.3. Del derecho de actualización, rectificación y supresión. En desarrollo del principio de veracidad o calidad, en el tratamiento de los datos personales deberán adoptarse las medidas razonables para asegurar que los datos personales que reposan en las bases de datos sean precisos y suficientes y, cuando así lo solicite el Titular o cuando el Responsable haya podido advertirlo, sean actualizados, rectificados o suprimidos, de tal manera que satisfagan los propósitos del tratamiento.
+
+(Decreto 1377 de 2013, art. 22)
+
+ARTÍCULO 2.2.2.25.4.4. Medios para el ejercicio de los derechos. Todo Responsable y Encargado deberá designar a una persona o área que asuma la función de protección de datos personales, que dará trámite a las solicitudes de los Titulares, para el ejercicio de los derechos a que se refiere la Ley 1581 de 2012 y el presente capítulo.
+
+(Decreto 1377 de 2013, art. 23)
+
+SECCIÓN 5
+
+TRANSFERENCIAS Y TRANSMISIONES INTERNACIONALES DE DATOS PERSONALES
+
+ARTÍCULO 2.2.2.25.5.1. De la transferencia y transmisión internacional de datos personales. Para la transmisión y transferencia de datos personales, se aplicarán las siguientes reglas:
+
+1. Las transferencias internacionales de datos personales deberán observar lo previsto en el artículo 26 de la Ley 1581 de 2012.
+
+2. Las transmisiones internacionales de datos personales que se efectúen entre un Responsable y un Encargado para permitir que el encargado realice el tratamiento por cuenta del responsable, no requerirán ser informadas al Titular ni contar con su consentimiento cuando exista un contrato en los términos del artículo 2.2.2.25.5.2.
+
+(Decreto 1377 de 2013, art. 24)
+
+ARTÍCULO 2.2.2.25.5.2. Contrato de transmisión de datos personales. El contrato que suscriba el Responsable con los encargados para el tratamiento de datos personales bajo su control y responsabilidad señalará los alcances del tratamiento, las actividades que el encargado realizará por cuenta del responsable para el tratamiento de los datos personales y las obligaciones del Encargado para con el titular y el Responsable.
+
+Mediante dicho contrato el Encargado se comprometerá a dar aplicación a las obligaciones del Responsable bajo la política de Tratamiento de la información fijada por este y a realizar el Tratamiento de datos de acuerdo con la finalidad que los Titulares hayan autorizado y con las leyes aplicables.
+
+Además de las obligaciones que impongan las normas aplicables dentro del citado contrato, deberán incluirse las siguientes obligaciones en cabeza del respectivo encargado:
+
+1. Dar Tratamiento, a nombre del Responsable, a los datos personales conforme a los principios que los tutelan.
+
+2. Salvaguardar la seguridad de las bases de datos en los que se contengan datos personales.
+
+3. Guardar confidencialidad respecto del tratamiento de los datos personales.
+
+(Decreto 1377 de 2013, art. 25)
+
+SECCIÓN 6
+
+RESPONSABILIDAD DEMOSTRADA FRENTE AL TRATAMIENTO DE DATOS PERSONALES
+
+ARTÍCULO 2.2.2.25.6.1. Demostración. Los responsables del tratamiento de datos personales deben ser capaces de demostrar, a petición de la Superintendencia de Industria y Comercio, que han implementado medidas apropiadas y efectivas para cumplir con las obligaciones establecidas en la Ley 1581 de 2012 y este capítulo, en una manera que sea proporcional a lo siguiente:
+
+1. La naturaleza jurídica del responsable y, cuando sea del caso, su tamaño empresarial, teniendo en cuenta si se trata de una micro, pequeña, mediana o gran empresa, de acuerdo con la normativa vigente.
+
+2. La naturaleza de los datos personales objeto del tratamiento.
+
+3. El tipo de Tratamiento.
+
+4. Los riesgos potenciales que el referido tratamiento podrían causar sobre los derechos de los titulares.
+
+En respuesta a un requerimiento de la Superintendencia de Industria y Comercio, los Responsables deberán suministrar a esta una descripción de los procedimientos usados para la recolección de los datos personales, cómo también la descripción de las finalidades para las cuáles esta información es recolectada y una explicación sobre la relevancia de los datos personales en cada caso.
+
+En respuesta a un requerimiento de la Superintendencia de Industria y Comercio, quienes efectuen el Tratamiento de los datos personales deberán suministrar a esta evidencia sobre la implementación efectiva de las medidas de seguridad apropiadas:
+
+(Decreto 1377 de 2013, art. 26)
+
+ARTÍCULO 2.2.2.25.6.2. Políticas internas efectivas. En cada caso, de acuerdo con las circunstancias mencionadas en los numerales 1, 2, 3 y 4 del artículo 2.2.2. 25.6.1. las medidas efectivas y apropiadas implementadas por el Responsable deben ser consistentes con las instrucciones impartidas por la Superintendencia de Industria y Comercio. Dichas políticas deberán garantizar:
+
+1. La existencia de una estructura administrativa proporcional a la estructura y tamaño empresarial del responsable para la adopción e implementación de políticas consistentes con la Ley 1581 de 2012 y este capítulo.
+
+2. La adopción de mecanismos internos para poner en práctica estas políticas incluyendo herramientas de implementación, entrenamiento y programas de educación.
+
+3. La adopción de procesos para la atención y respuesta a consultas, peticiones y reclamos de los Titulares, con respecto a cualquier aspecto del tratamiento.
+
+La verificación por parte de la Superintendencia de Industria y Comercio de la existencia de medidas y políticas específicas para el manejo adecuado de los datos personales que administra un Responsable será tenida en cuenta al momento de evaluar la imposición de sanciones por violación a los deberes y obligaciones establecidos en la ley y en el presente capítulo.
+
+(Decreto 1377 de 2013, art. 27)
+
+"SECCIÓN 7
+
+(Adicionada por el Art.1, Decreto 255 de 2022)
+
+Normas corporativas vinculantes
+
+ARTÍCULO 2.2.2.25.7.1. Objeto. El presente Decreto tiene cómo objeto establecer las condiciones mínimas de las Normas Corporativas Vinculantes, entre ellas, las garantías y mecanismos de protección de datos que deben ofrecerse, así cómo el procedimiento para autorizarlas, para la obtención de la certificación de buenas prácticas.
+
+ARTÍCULO 2.2.2.25.7.2. Ámbito de aplicación. Las Normas Corporativas Vinculantes son de obligatorio cumplimiento para el grupo empresarial, en los términos definidos por el Artículo 28 de la Ley 222 de 1995, que realicen transferencia o conjunto de transferencia de datos personales a un responsable de dicho grupo, fuera del territorio colombiano, salvo que el grupo empresarial aplique otros mecanismos de transferencia de datos establecidos en la legislación colombiana.
+
+ARTÍCULO 2.2.2.25.7.3. Definición de Normas Corporativas Vinculantes. Son Normas Corporativas Vinculantes las políticas, principios de buen gobierno o códigos de buenas prácticas empresariales de obligatorio cumplimiento asumidas por el responsable del tratamiento de datos, establecido en el territorio colombiano, para realizar transferencias o un conjunto de transferencias de datos personales a un responsable que se encuentre ubicado por fuera del territorio colombiano y que haga parte de un mismo grupo empresarial.
+
+ARTÍCULO 2.2.2.25.7.4. De la garantía que frente a los principios deben proveer las Normas Corporativas Vinculantes. Las Normas Corporativas Vinculantes que se adopten en un mismo grupo empresarial deberán garantizar el cumplimiento de los principios para el tratamiento de datos personales consagrado en el Artículo 4 de la Ley 1581 de 2012 y sus decretos reglamentarios, las reglas sobre las categorías especiales de datos, previstas en el Título 111 de la Ley 1581 de 2012, los derechos y condiciones de legalidad para el tratamiento de datos contenidos en el Título IV de la Ley 1581 de 2012 y los deberes de los responsables del tratamiento de que trata el Título VI de la Ley 1581 de 2012.
+
+Para efectos de lo anterior, las Normas Corporativas Vinculantes implementadas por un grupo empresarial deben establecer mecanismos para asegurar que los datos sean:
+
+Tratados de manera licita, leal y transparente en relación con el titular del dato personal.
+Recogidos con fines determinados, explicitos y legitimos, y no serán tratados posteriormente de manera incompatible con dichos fines.
+Adecuados, pertinentes y limitados al mínimo necesario en relación a los fines para los que se traten.
+Exactos y se mantendrán actualizados; se habrán de adoptar todas las medidas razonables para que se supriman o rectifiquen sin demora los datos personales que sean inexactos.
+Conservados de manera que permitan identificar al titular, durante un período no superior al necesario.
+Tratados bajo el control del responsable del tratamiento, quién, para cada operación de tratamiento, garantizará y demostrara el cumplimiento de las disposiciones del presente decreto.
+
+PARÁGRAFO. Las empresas del grupo empresarial y cada uno de sus miembros serán solidariamente responsables del cumplimiento de las Normas Corporativas Vinculantes. En consecuencia, la Superintendencia de Industria y Comercio puede requerir, investigar y sancionar al responsable del tratamiento de datos establecido en el territorio colombiano, por las infracciones que cometa cualquiera de los miembros del grupo empresarial.
+
+ARTÍCULO 2.2.2.25.7.5. Requisitos generales de las Normas Corporativas Vinculantes. Las Normas Corporativas Vinculantes que adopte un mismo grupo empresarial deberán contener cómo mínimo lo siguientes requisitos:
+
+La estructura y los datos de contacto del grupo empresarial y de cada uno de sus miembros a los cuáles les es de obligatorio cumplimiento las Normas Corporativas Vinculantes.
+Las transferencias o serie de transferencias de datos, incluidas las categorías de datos personales, el tipo de tratamiento y sus fines, el tipo de titulares afectados y el nombre del tercer o los terceros países.
+Su carácter jurídicamente vinculante, para todas las entidades que conforman el grupo empresarial.
+La aplicación de los pnnc1p1os generales en materia de protección de datos establecidos en la Ley 1581 de 2012 y sus normas reglamentarias.
+La referencia a los derechos de los titulares previstos en la Ley 1581 de 2012 y sus normas reglamentarias, así cómo los medios efectivos para ejercerlos.
+Las medidas adoptadas para impedir las transferencias a otras entidades que no pertenecen al grupo empresarial. Lo anterior, sin perjuicio de lo consagrado en el Artículo 26 de la Ley 1581 de 2012.
+La referencia al personal encargado del cumplimiento de las normas corporativas vinculantes, así cómo la supervisión de la formación y del trámite de las reclamaciones.
+Los mecanismos establecidos dentro del grupo empresarial para garantizar que se verifique el cumplimiento de las normas corporativas vinculantes. Dichos mecanismos incluirán auditorias de protección de datos y metodos para garantizar acciones correctivas para proteger los derechos del titular del dato.
+Los mecanismos establecidos para comunicar y registrar las modificaciones introducidas en las políticas y para notificar esas modificaciones a la Superintendencia de Industria y Comercio.
+La formación en protección de datos pertinente para el personal que tenga acceso permanente o habitual a datos personales.
+Los procedimientos para que los titulares presenten consultas o reclamos y estos sean atendidos oportunamente de conformidad con lo previsto en la Ley 1581 de 2012.
+La adopción de medidas de responsabilidad demostrada (accountability) para comprobar que se han implementado medidas útiles, oportunas, pertinentes y eficientes para cumplir las normas corporativas vinculantes y lo establecido en este decreto.
+Las especificaciones o requisitos adicionales que haga la Superintendencia de Industria y Comercio con base en los anteriores numerales.
+
+ARTÍCULO 2.2.2.25.7.6. Facultades de la Superintendencia de Industria y Comercio para establecer las Normas Corporativas Vinculantes. La Superintendencia de Industria y Comercio establecerá las especificaciones aplicables a las Normas Corporativas Vinculantes, al tenor de lo dispuesto en el presente decreto, para garantizar la efectiva protección de los datos personales de los titulares.
+
+La Superintendencia de Industria y Comercio publicará en su página web, todas las especificaciones que deberán contener las Normas Corporativas Vinculantes y en dicha publicación establecerá la fecha a partir de la cuál los interesados podrán presentar las solicitudes para su revisión respectiva.
+
+ARTÍCULO 2.2.2.25.7.7. Aprobación de la Superintendencia de Industria y Comercio. La Superintendencia de Industria y Comercio aprobara las Normas Corporativas Vinculantes que cumplan los siguientes requisitos:
+
+Sean jurídicamente vinculantes y se apliquen a todos los miembros que hacen parte del mismo grupo empresarial responsables de la transferencia y tratamiento de protección de los datos personales de los titulares.
+Confierán expresamente a los titulares de los datos la facultad de ejercer los derechos previstos en la Ley 1581 de 2012.
+Cumplan los requisitos establecidos en el presente decreto.
+
+Las Normas Corporativas Vinculantes sólo podrán ser sometidas a la aprobación de la Superintendencia de Industria y Comercio, cómo autoridad de datos colombiana, una vez hayan sido aprobadas por el órgano correspondiente según los estatutos de la sociedad o los acuerdos del grupo empresarial. Las normas que sean formalmente presentadas ante la Superintendencia de Industria y Comercio sólo estarán vigentes a partir de la fecha en que la Superintendencia de Industria y Comercio, emita su certificación y es, a partir de ese momento, que pueden iniciar a aplicarse.
+
+El grupo empresarial que cuente con aprobación de las Normas Corporativas Vinculantes, deberá informar tal situación en su página web.
+
+En los casos en que las normas no sean aprobadas, los ajustes requeridos por la Superintendencia de Industria y Comercio, una vez realizados, deben contar con la aprobación del órgano social o contractual correspondiente, antes de ser sometidas, nuevamente, a aprobación.
+
+ARTÍCULO 2.2.2.25.7.8. Formatos y modelos de Normas Corporativas Vinculantes. La Superintendencia de Industria y Comercio podrá publicar y especificar en su página web a títulos de guías o ayudas, formatos y modelos de documentos que podrán ser utilizados como referentes por los grupos empresariales. "
+

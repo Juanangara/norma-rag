@@ -1,0 +1,35 @@
+40 preguntas con articulo esperado; K=5; nivel articulo
+
+configuracion          norm   hit@5  cobert@5    MRR
+solo vector               -    1.00      0.98   0.88
+solo texto                0    0.65      0.57   0.52
+solo texto                1    0.70      0.63   0.57
+solo texto                2    0.78      0.72   0.54
+solo texto                4    0.88      0.82   0.62
+solo texto                8    0.80      0.73   0.61
+solo texto               32    0.65      0.57   0.52
+1:1                       0    0.88      0.83   0.74
+1:1                       1    0.90      0.86   0.76
+1:1                       2    0.93      0.86   0.76
+1:1                       4    0.93      0.90   0.84
+1:1                       8    1.00      0.93   0.79
+1:1                      32    0.88      0.83   0.74
+2:1                       0    0.90      0.87   0.79
+2:1                       1    0.93      0.89   0.83
+2:1                       2    0.95      0.88   0.82
+2:1                       4    0.93      0.90   0.85
+2:1                       8    0.97      0.91   0.81
+2:1                      32    0.90      0.87   0.79
+3:1                       0    0.90      0.87   0.80
+3:1                       1    0.93      0.89   0.82
+3:1                       2    0.95      0.88   0.85
+3:1                       4    0.93      0.90   0.84
+3:1                       8    0.97      0.91   0.85
+3:1                      32    0.90      0.87   0.80
+
+similitud del mejor chunk (solo vector), para el umbral de rechazo
+  respondibles   n=30  min=0.865 mediana=0.892 max=0.924
+  sin respuesta  n=6   min=0.787 mediana=0.834 max=0.884
+  premisa falsa  n=4   min=0.854 mediana=0.891 max=0.905
+  parcial        n=1   min=0.830 mediana=0.830 max=0.830
+  solapamiento: la mayor similitud sin respuesta (0.884) vs la menor respondible (0.842)

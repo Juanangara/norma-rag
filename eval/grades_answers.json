@@ -1,0 +1,6 @@
+{
+  "_nota": "Lectura de cada respuesta generada (prompt v2, 39 preguntas de desarrollo) contra la respuesta_clave. Hecha por el modelo que construyó el sistema, no por un abogado. ok = correcta en lo esencial; mal = equivocada, inventa o acepta una premisa falsa; vacia = no informa.",
+  "ok": ["b17", "b20", "b22", "q01", "q04", "q07", "q10", "q13", "q16", "q19", "q22", "q28", "q46"],
+  "vacia": ["q34"],
+  "mal": ["b01", "b02", "b03", "b04", "b07", "b10", "b11", "b12", "b13", "b15", "b18", "b19", "b23", "q25", "q31", "q37", "q38", "q39", "q40", "q41", "q42", "q43", "q44", "q45", "q47"]
+}

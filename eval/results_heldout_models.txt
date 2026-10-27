@@ -1,0 +1,3 @@
+modelo                conjunto     n   hit@5  cobert@5    MRR
+e5-small              heldout     20    0.60      0.29   0.48
+bge-m3                heldout     20    0.60      0.35   0.56

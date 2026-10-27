@@ -1,0 +1,4 @@
+sentence-transformers
+psycopg[binary]
+pgvector
+pytest

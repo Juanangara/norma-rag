@@ -1,0 +1,6 @@
+{
+  "_nota": "Lectura de las 20 respuestas del conjunto reservado, hecha DESPUES de ver que defensas las bloqueaban y SIN cambiar ningun umbral. La hizo el modelo que construyo el sistema, no un abogado; varias son discutibles (h06, h15, h18). ok = correcta en lo esencial; mal = equivocada, inventa o afirma lo que el corpus no dice; vacia = no informa o no contesta.",
+  "ok": ["h01", "h06", "h13", "h15", "h16"],
+  "vacia": ["h03", "h07", "h10", "h11", "h17"],
+  "mal": ["h02", "h04", "h05", "h08", "h09", "h12", "h14", "h18", "h19", "h20"]
+}

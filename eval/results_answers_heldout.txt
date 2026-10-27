@@ -1,0 +1,16 @@
+20 respuestas; umbral de similitud=0.45; apoyo minimo=0.6
+
+defensas                  rechazar: rechaza  responder: responde   y con fuente esperada  limite/corregir: responde
+ninguna                          0/0                  9/9                      4/9                      11/11
+solo capa 1                      0/0                  9/9                      4/9                       8/11
+solo capa 3                      0/0                  1/9                      0/9                       4/11
+capas 1 y 3                      0/0                  1/9                      0/9                       4/11
+
+revision manual (grades_answers.json, no es de un abogado)
+defensas                  se muestran   correctas   malas   vacias    correctas bloqueadas  malas bloqueadas
+ninguna                            20           5      10        5                       0                 0
+solo capa 1                        17           4      10        3                       1                 0
+solo capa 3                         5           0       5        0                       5                 5
+capas 1 y 3                         5           0       5        0                       5                 5
+
+similitud del mejor articulo: min=0.420 mediana=0.514 max=0.708
