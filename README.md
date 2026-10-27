@@ -8,20 +8,34 @@ Corpus: **Ley 1581 de 2012** (30 articles) and **Decreto 1074 de 2015, capítulo
 
 This is a study of how far a small local model can be trusted in a legal domain, and the answer it measured is "not far": the project is built around that result. Read [`eval/REPORT.md`](eval/REPORT.md) for the numbers.
 
+## Features
+- Questions in plain Spanish; the answer is the articles of the law, verbatim, with norm, article number and title
+- Corpus parsed from official-copy texts into JSONL (65 articles), the source of truth; provenance and checks documented
+- Semantic search with `bge-m3` in PostgreSQL + pgvector (HNSW): articles split by paragraph, one chunk per definition, explicit references resolved ("artículo 9 del Decreto 1377" → the article that replaced it)
+- Out-of-scope questions are refused instead of answered
+- Optional summary from a local 1B-parameter LLM (llama.cpp), with grammar-constrained JSON and checks against hallucination; hidden when it fails them
+- Command line and a local web demo
+- Evaluation with three question sets (one held out until the end), retrieval metrics, embedding-model, reranker and latency experiments, and a graded ablation of each defense
+- 54 automated tests and CI
+- Everything runs locally: Docker, no API keys, no GPU
+
 | A question the corpus answers | A question it does not |
 |---|---|
 | ![Search results: the closest articles, verbatim, with their norm](docs/demo-busqueda.jpg) | ![Out-of-scope question: refused, nothing invented](docs/demo-rechazo.jpg) |
 
 *Local web demo (`python -m app.web`). The left question is an easy one; questions from a non-lawyer retrieve worse, see the numbers below.*
 
-## What it does
+## How it works
 
-```
-question ─▶ retrieve (bge-m3 + pgvector, reference resolution) ─▶ articles, verbatim  ◀── main result
-                  │
-                  └─ too far from every article? ─▶ "I found nothing about this"      (defense 1)
-                  │
-                  └─ --resumen: local LLM (JSON only) ─▶ checks ─▶ labelled summary    (defenses 2 and 3)
+```mermaid
+flowchart LR
+    Q[Question] --> R["Retrieve<br/>bge-m3 + pgvector<br/>reference resolution"]
+    R -->|"too far from every article<br/>(defense 1)"| N[Refusal: nothing found]
+    R --> A["Articles, verbatim<br/><b>main result</b>"]
+    R -.->|"--resumen"| L["Local LLM<br/>bounded JSON<br/>(defense 2)"]
+    L --> V["Checks: figures and support<br/>(defense 3)"]
+    V -->|passes| S[Summary, labelled automatic]
+    V -->|fails| H[Summary hidden]
 ```
 
 - **Retrieval** is the result. Vector search over article-sized chunks (long articles are split by paragraph, "Definiciones" one definition per chunk), plus explicit references: "artículo 9 del Decreto 1377" resolves to the article that replaced it (2.2.2.25.2.6).
@@ -137,6 +151,6 @@ eval/     question sets, retrieval and answer scoring, model/reranker experiment
 db/       schema template      tests/    unit and integration tests
 ```
 
-## License
+## About the corpus
 
-Code: MIT, see `LICENSE`. The laws in `corpus/` are public legal texts; their provenance is in `corpus/SOURCES.md`.
+The laws in `corpus/` are public legal texts; where each copy came from and how it was checked is in `corpus/SOURCES.md`.
