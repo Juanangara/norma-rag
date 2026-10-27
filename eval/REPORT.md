@@ -62,14 +62,14 @@ Similarity does not help to reject. The best chunk scores 0.83 to 0.90 on all 23
 
 **The numbers in sections 1 and 2 measure the easy case (questions that reuse the corpus vocabulary) and should not be read as the system's real accuracy.**
 
-Not yet known: which fix helps. Candidates to measure on this set: rewriting the question in legal vocabulary before searching, splitting a two-part question, a larger embedding model (`bge-m3`), and a reranker over the top 20. Any change must be judged on questions it was not designed from; 23 is small and these were already used to diagnose.
+Which fixes help was measured afterwards: a larger embedding model (`bge-m3`) in sections 5 and 6, a reranker in section 5. Not tried: rewriting the question in legal vocabulary with the LLM before searching, and splitting a two-part question. Any change must be judged on questions it was not designed from; 23 is small and these were already used to diagnose, which is why section 5 also uses a held-out set.
 
-## Limits of these numbers
+## Limits of the numbers in sections 1 to 4
 - 40 questions: one question is 0.025 of hit@5. Differences of 0.02 are noise.
 - The questions were written after reading the corpus, so they are easier than real users' questions.
 - The chunking change in section 2 was designed after seeing which questions failed in this same set. The gain is in-sample. It needs questions written independently to confirm it.
 - The settings in section 1 were compared on the same set they were judged on.
-- The 7 other questions (refusals, false premises, partial answer) are only used for the similarity table here. They are scored once there is an answer layer.
+- The 7 other questions (refusals, false premises, partial answer) are only used for the similarity table here. They are scored in sections 7 and 8, once there is an answer layer.
 
 ## 5. Embedding models and reranker
 
