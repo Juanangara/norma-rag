@@ -15,5 +15,5 @@ jobs:
           cache: pip
       # Only what the tests import. torch and sentence-transformers are loaded lazily and only to embed,
       # so they are not installed here; the tests that need the database or a model skip themselves.
-      - run: pip install "psycopg[binary]" pgvector pytest
+      - run: pip install "psycopg[binary]==3.3.6" pgvector==0.5.1 pytest==9.1.1
       - run: python -m pytest -q

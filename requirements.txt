@@ -1,4 +1,4 @@
-sentence-transformers
-psycopg[binary]
-pgvector
-pytest
+sentence-transformers==6.2.0
+psycopg[binary]==3.3.6
+pgvector==0.5.1
+pytest==9.1.1
