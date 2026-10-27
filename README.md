@@ -2,6 +2,8 @@
 
 [![tests](https://github.com/Juanangara/norma-rag/actions/workflows/tests.yml/badge.svg)](https://github.com/Juanangara/norma-rag/actions/workflows/tests.yml)
 
+**English** · [Español](README.es.md)
+
 Ask a question in plain Spanish ("me pidieron la cédula para un descuento, ¿es legal?") and get the **articles of the law that answer it, verbatim, with their source**. Everything runs on a laptop: no cloud, no API keys, no GPU.
 
 Corpus: **Ley 1581 de 2012** (30 articles) and **Decreto 1074 de 2015, capítulo 25** (35 articles, which compiles the old Decreto 1377 de 2013). Provenance and checks: [`corpus/SOURCES.md`](corpus/SOURCES.md).
@@ -94,7 +96,7 @@ Three problems in my own first design were found by reading the outputs and fixe
 
 - **Not legal advice.** Every result says so. The labels of the evaluation sets were proposed by the model that built the system and are **not reviewed by a lawyer**; 8 are flagged `dudoso`. The answers were also graded by that model.
 - The evaluation sets are small (20 to 47 questions): one question moves a score by 0.02 to 0.05.
-- The texts are digital copies (SUIN, Función Pública), compared with each other but not with the Diario Oficial. A reform bill (Proyecto de Ley Estatutaria 282 de 2026 Cámara) was pending when the corpus was fetched; check its status before relying on the text.
+- The texts are digital copies (SUIN, Función Pública), compared with each other but not with the Diario Oficial. A reform bill (Proyecto de Ley Estatutaria 282 de 2026 Cámara) to modify Ley 1581 was filed in August 2026. As of 2026-10-27 no source shows it approved, but its official status could not be confirmed (details in `corpus/SOURCES.md`); if it passes, the corpus is out of date.
 - Decreto 1377 de 2013 is reachable only through the equivalences to the Decreto 1074 chapter. Other norms (e.g. Ley 1266, habeas data financiero) are out of scope and refused.
 - On CPU a summary takes 30 to 95 s; search alone takes well under a second once the model is loaded.
 
