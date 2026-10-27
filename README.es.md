@@ -8,6 +8,9 @@ Haz una pregunta en español corriente ("me pidieron la cédula para un descuent
 
 Corpus: **Ley 1581 de 2012** (30 artículos) y **Decreto 1074 de 2015, capítulo 25** (35 artículos, que compila el antiguo Decreto 1377 de 2013). Procedencia y verificaciones: [`corpus/SOURCES.md`](corpus/SOURCES.md) (en inglés).
 
+> [!WARNING]
+> **Vigencia de la ley.** Hay un proyecto de reforma de la Ley 1581 (Proyecto de Ley Estatutaria 282 de 2026 Cámara, radicado en agosto de 2026) en trámite en el Congreso. A 2026-10-27 ninguna fuente muestra que esté aprobado, pero **no se pudo confirmar su estado oficial** (detalles en [`corpus/SOURCES.md`](corpus/SOURCES.md)). Los textos de este repositorio se verificaron el 2026-10-26; si el proyecto se aprueba, el corpus queda desactualizado. Verifica la ley vigente antes de apoyarte en ella. No es asesoría legal.
+
 Este proyecto estudia hasta dónde se puede confiar en un modelo local pequeño en un dominio legal, y lo que midió es "no mucho": el diseño gira en torno a ese resultado. Las cifras están en [`eval/REPORT.md`](eval/REPORT.md) (en inglés).
 
 ## Características

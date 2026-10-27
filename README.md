@@ -8,6 +8,9 @@ Ask a question in plain Spanish ("me pidieron la cédula para un descuento, ¿es
 
 Corpus: **Ley 1581 de 2012** (30 articles) and **Decreto 1074 de 2015, capítulo 25** (35 articles, which compiles the old Decreto 1377 de 2013). Provenance and checks: [`corpus/SOURCES.md`](corpus/SOURCES.md).
 
+> [!WARNING]
+> **Currency of the law.** A reform bill to modify Ley 1581 (Proyecto de Ley Estatutaria 282 de 2026 Cámara, filed August 2026) is in Congress. As of 2026-10-27 no source shows it approved, but **its official status could not be confirmed** (details in [`corpus/SOURCES.md`](corpus/SOURCES.md)). The texts here were checked on 2026-10-26; if the bill passes, the corpus is out of date. Verify the current law before relying on it. This is not legal advice.
+
 This is a study of how far a small local model can be trusted in a legal domain, and the answer it measured is "not far": the project is built around that result. Read [`eval/REPORT.md`](eval/REPORT.md) for the numbers.
 
 ## Features
