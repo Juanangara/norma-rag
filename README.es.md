@@ -103,6 +103,19 @@ Tres problemas de mi propio primer diseño se encontraron leyendo las salidas y 
 - El Decreto 1377 de 2013 solo se alcanza mediante las equivalencias con el capítulo del Decreto 1074. Otras normas (p. ej. la Ley 1266, habeas data financiero) están fuera de alcance y se rechazan.
 - En CPU un resumen tarda de 30 a 95 s; la búsqueda sola tarda mucho menos de un segundo una vez cargado el modelo.
 
+## Trabajo futuro
+
+En orden aproximado de impacto. Nada de esto se ha probado, salvo que se indique.
+
+1. **Revisión de la evaluación por un abogado.** Revisar las etiquetas (primero las 8 marcadas `dudoso`) y ampliar el conjunto de preguntas independientes. Todas las cifras de este repositorio ganan fiabilidad.
+2. **Una verificación de implicación textual sobre el resumen.** Un modelo NLI multilingüe que compruebe si la respuesta se deduce del párrafo citado. Apunta al fallo que las verificaciones actuales no ven: un sentido invertido.
+3. **Otros modelos pequeños.** Las mismas defensas y el mismo conjunto reservado con Llama 3.2 3B (unas 3 veces más lento aquí), Qwen o Gemma, para ver cuánto del problema es el tamaño del modelo.
+4. **Mejor recuperación para preguntas de personas sin formación legal** (cobertura de 0.30 a 0.48 hoy): reescribir la pregunta con vocabulario legal usando el LLM, dividir las preguntas dobles, ajustar el modelo de embeddings con pares pregunta-artículo.
+5. **Un corpus más amplio:** Decreto 886 de 2014 (Registro Nacional de Bases de Datos), Decreto 1081 de 2015 y Ley 1266 de 2008 (habeas data financiero), que hoy se rechaza por estar fuera de alcance.
+6. **Comparar los textos con el Diario Oficial impreso.** Solo se compararon entre sí dos copias digitales.
+7. **Seguir el Proyecto de Ley Estatutaria 282 de 2026** y actualizar el corpus si se aprueba.
+8. **Cosas menores:** un Dockerfile de la app para que todo arranque con `docker compose up`; mostrar el resumen en streaming en la demo web.
+
 ## Cómo correrlo
 
 Necesita Docker, Python 3.11 y unos 4 GB de RAM libres (6 GB con el resumen). Comprobado en un clon limpio (Windows 11, solo CPU): instalar las dependencias tomó unos 10 minutos, la carga unos 6 (más en la primera vez, que además descarga el modelo de embeddings) y las 54 pruebas pasaron.

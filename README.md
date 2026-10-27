@@ -103,6 +103,19 @@ Three problems in my own first design were found by reading the outputs and fixe
 - Decreto 1377 de 2013 is reachable only through the equivalences to the Decreto 1074 chapter. Other norms (e.g. Ley 1266, habeas data financiero) are out of scope and refused.
 - On CPU a summary takes 30 to 95 s; search alone takes well under a second once the model is loaded.
 
+## Future work
+
+In rough order of impact. None of these has been tried unless stated.
+
+1. **Lawyer review of the evaluation.** Check the labels (the 8 flagged `dudoso` first) and grow the independent question set. Every number in this repository gets more trustworthy.
+2. **An entailment check on the summary.** A multilingual NLI model that tests whether the answer follows from the cited paragraph. It targets the failure the current checks cannot see: a reversed meaning.
+3. **Other small models.** The same defenses and the same held-out set with Llama 3.2 3B (about 3 times slower here), Qwen or Gemma, to see how much of the problem is model size.
+4. **Better retrieval for non-lawyer questions** (coverage 0.30 to 0.48 today): rewrite the question in legal vocabulary with the LLM, split two-part questions, fine-tune the embedding model on question-article pairs.
+5. **A wider corpus:** Decreto 886 de 2014 (Registro Nacional de Bases de Datos), Decreto 1081 de 2015 and Ley 1266 de 2008 (habeas data financiero), which is refused today as out of scope.
+6. **Compare the texts with the printed Diario Oficial.** Only two digital copies were compared with each other.
+7. **Follow Proyecto de Ley Estatutaria 282 de 2026** and update the corpus if it is approved.
+8. **Smaller things:** a Dockerfile for the app, so everything starts with `docker compose up`; streaming the summary in the web demo.
+
 ## Run it
 
 Needs Docker, Python 3.11 and about 4 GB of free RAM (6 GB with the summary). Checked on a clean clone (Windows 11, CPU only): installing the dependencies took about 10 minutes, loading took about 6 (more on the first run, which also downloads the embedding model), and the 54 tests passed.
