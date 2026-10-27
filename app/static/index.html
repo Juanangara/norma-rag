@@ -140,6 +140,9 @@ $("form").addEventListener("submit", (e) => {
   if (q) ask(q, $("resumen").checked);
 });
 
+const preset = new URLSearchParams(location.search).get("q");   // shareable link: /?q=pregunta
+if (preset) { $("q").value = preset; ask(preset, false); }
+
 EXAMPLES.forEach((text) => {
   const li = el("li");
   const b = el("button", text.length > 60 ? text.slice(0, 57) + "…" : text);

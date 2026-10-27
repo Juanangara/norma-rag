@@ -1,10 +1,18 @@
 # Norma — local RAG over Colombian personal-data law
 
+[![tests](https://github.com/Juanangara/norma-rag/actions/workflows/tests.yml/badge.svg)](https://github.com/Juanangara/norma-rag/actions/workflows/tests.yml)
+
 Ask a question in plain Spanish ("me pidieron la cédula para un descuento, ¿es legal?") and get the **articles of the law that answer it, verbatim, with their source**. Everything runs on a laptop: no cloud, no API keys, no GPU.
 
 Corpus: **Ley 1581 de 2012** (30 articles) and **Decreto 1074 de 2015, capítulo 25** (35 articles, which compiles the old Decreto 1377 de 2013). Provenance and checks: [`corpus/SOURCES.md`](corpus/SOURCES.md).
 
 This is a study of how far a small local model can be trusted in a legal domain, and the answer it measured is "not far": the project is built around that result. Read [`eval/REPORT.md`](eval/REPORT.md) for the numbers.
+
+| A question the corpus answers | A question it does not |
+|---|---|
+| ![Search results: the closest articles, verbatim, with their norm](docs/demo-busqueda.jpg) | ![Out-of-scope question: refused, nothing invented](docs/demo-rechazo.jpg) |
+
+*Local web demo (`python -m app.web`). The left question is an easy one; questions from a non-lawyer retrieve worse, see the numbers below.*
 
 ## What it does
 
@@ -34,6 +42,40 @@ question ─▶ retrieve (bge-m3 + pgvector, reference resolution) ─▶ articl
 
 The last row is why the main output is the law and not generated text. On held-out questions every summary that passed the checks was wrong: it reversed the meaning ("answering every health field is obligatory") or asserted what the corpus does not cover. The checks do stop obvious fabrications (a recipe, a prison sentence, an invented figure): 20 of 25 wrong answers blocked on the development sample. They cannot see a reversed meaning. Details, failure cases and the method (thresholds were tuned on development answers only): `eval/REPORT.md`, sections 7 and 8.
 
+## A small model, and what was done about it
+
+The summary comes from **Llama 3.2 1B Instruct, about 1 billion parameters, 4-bit quantized (Q4_K_M, 0.8 GB)**, served by llama.cpp on a laptop CPU (i5-1235U, no GPU, 3 to 9 tokens per second). That is on purpose: the point was a system anyone can run locally. It is also a weak model. It follows a prompt loosely, copies instead of reasoning, and says wrong things with confidence. So it is treated as a component to contain, not to trust, and every defense below exists because of a failure that was observed and measured, not assumed.
+
+| Observed with the 1B model | What the system does about it |
+|---|---|
+| Answers anything, even out-of-scope questions: 0 of 7 refusals (arepa recipe, prison sentence, cookie banner, other laws) | **Defense 1.** If even the best article is too far from the question, nothing is generated and the person is told so. Explicit references ("artículo 9 del Decreto 1377") skip this check, they carry their own evidence. |
+| Invents or ignores the text when it has too much freedom | **Defense 2.** It only sees the 4 retrieved articles, with temperature 0 and rules to use nothing else. The reply is forced by a grammar built from a JSON schema (llama.cpp): bounded length, no free-form output. A reply that is cut off or malformed is discarded. |
+| Answers a bare "Sí" or "No" | The schema requires an explanation of 80 to 450 characters. |
+| Does not copy quotes: asked to quote the law, it returned article headings (0 of 8 quotes literal) | It no longer quotes. It cites paragraph codes from a fixed list, and the text shown comes from the corpus. |
+| Cites the wrong article: it copied from one and cited another | The model's citations are ignored. The system finds the paragraphs that actually cover the answer, and shows those. |
+| Invents figures ("30 días", "10.000 salarios") | **Defense 3.** Any figure in the answer that appears nowhere in the articles it was shown rejects the answer. |
+| Talks about things the articles never mention | **Defense 3.** At least 60% of the answer's content words must be covered by the best three paragraphs, or it is rejected. |
+| Gets it wrong anyway | The generated text is never the main result. The law, verbatim, comes first; the summary is optional, labelled as automatic, and hidden when it fails the checks. Every result carries a "not legal advice" notice. |
+
+How much it helped, graded by reading each answer against its expected answer (development sample of 39, mostly hard cases):
+
+| | Shown | Wrong | Wrong answers blocked | Correct answers blocked |
+|---|---|---|---|---|
+| No defenses | 39 | 25 (64%) | 0 | 0 |
+| Defenses 1 and 3 | 17 | 5 (29%) | 20 of 25 | 2 of 13 |
+
+Three problems in my own first design were found by reading the outputs and fixed: an example code in the prompt that the model copied into almost every answer, numeric labels that it echoed as content, and the bare "Sí" or "No".
+
+**What it does not fix.** On the 20 held-out questions the defenses blocked half of the wrong answers, but all 5 that passed were wrong, and all 5 correct ones were blocked. The checks compare vocabulary, not meaning, so they cannot see a reversed meaning ("no tienes derecho a borrar tus datos") or an answer that goes beyond what the corpus says. That is why the law comes first. What is untested and might help: a larger model (the 3B would be about 3 times slower here) and an entailment model that checks whether the answer follows from the cited paragraph. Full method, failures and numbers: `eval/REPORT.md`, sections 3, 7 and 8.
+
+## What I learned
+
+- **Measure on questions you did not design from.** Questions written after reading the corpus gave 0.97; questions from a non-lawyer gave 0.60 to 0.77. The easy set hid the real problem.
+- **A better embedding model helped; extra pipeline stages did not.** `bge-m3` beat `multilingual-e5-small` on non-lawyer questions (modestly on held-out); a reranker and hybrid search gave nothing.
+- **A similarity threshold cannot tell an answerable question from an unanswerable one**: the scores overlap (best chunk 0.63 for a question to refuse, 0.48 for one to answer).
+- **A defense can look good in-sample and fail on held-out data.** The checks were tuned on 39 answers; on a fresh set they let only wrong answers through.
+- **For a small model in a serious domain, show the source, not the generation.**
+
 ## Limits you should know
 
 - **Not legal advice.** Every result says so. The labels of the evaluation sets were proposed by the model that built the system and are **not reviewed by a lawyer**; 8 are flagged `dudoso`. The answers were also graded by that model.
@@ -44,7 +86,7 @@ The last row is why the main output is the law and not generated text. On held-o
 
 ## Run it
 
-Needs Docker, Python 3.11 and about 4 GB of free RAM (6 GB with the summary).
+Needs Docker, Python 3.11 and about 4 GB of free RAM (6 GB with the summary). Checked on a clean clone (Windows 11, CPU only): installing the dependencies took about 10 minutes, loading took about 6 (more on the first run, which also downloads the embedding model), and the 54 tests passed.
 
 ```bash
 cp .env.example .env                  # set POSTGRES_PASSWORD; MODELS_DIR for the summary (below)
